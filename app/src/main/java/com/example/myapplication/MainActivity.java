@@ -1,62 +1,51 @@
 package com.example.myapplication;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
+import android.view.MenuItem;
 
-import org.jetbrains.annotations.NotNull;
+import com.example.myapplication.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
-    EditText emailLogin, passwordLogin;
-    Button Login, Register;
-    FirebaseAuth firebaseAuth;
+public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+
+    BottomNavigationView bottomNavigationView;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        emailLogin = findViewById(R.id.edtEmailLogin);
-        passwordLogin = findViewById(R.id.edtPasswordLogin);
-        firebaseAuth = firebaseAuth.getInstance();
-        Register = findViewById(R.id.btnRegisterLogin);
-        Register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,RegisterActivity.class);
-                startActivity(intent);
-            }
-        });
-        Login = findViewById(R.id.btnLoginLogin);
-        Login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                firebaseAuth.signInWithEmailAndPassword(
-                        emailLogin.getText().toString(),
-                        passwordLogin.getText().toString()
-                ).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
-                        if (task.isSuccessful()){
-                            Intent intent = new Intent(MainActivity.this,MenuActivity.class);
-                            startActivity(intent);
-                        }else{
-                            Toast.makeText(MainActivity.this,task.getException().getMessage(),
-                                    Toast.LENGTH_LONG).show();
-                        }
-                    }
-                });
-            }
-        });
+        setContentView(R.layout.activity_login);
+
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(this);
+        bottomNavigationView.setSelectedItemId(R.id.home);
+
+    }
+    HomeFragment homeFragment = new HomeFragment();
+    FavoriteFragment favoriteFragment = new FavoriteFragment();
+    ProfileFragment profileFragment = new ProfileFragment();
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+        switch (item.getItemId()) {
+            case R.id.home:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
+                return true;
+
+            case R.id.favorite:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, favoriteFragment).commit();
+                return true;
+
+            case R.id.profile:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragment).commit();
+                return true;
+        }
+        return false;
     }
 }

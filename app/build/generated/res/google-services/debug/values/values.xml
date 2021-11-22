@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">16635069873-ha816kffo35erqubllo0qt9p1195pr8c.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">16635069873</string>
+    <string name="google_api_key" translatable="false">AIzaSyAMmaHbhWTJ3ZbkBo_yGJ7njwJzWJ1ubyI</string>
+    <string name="google_app_id" translatable="false">1:16635069873:android:eb20d4f3497a815cb36990</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAMmaHbhWTJ3ZbkBo_yGJ7njwJzWJ1ubyI</string>
+    <string name="google_storage_bucket" translatable="false">proyekpeta-a0df2.appspot.com</string>
+    <string name="project_id" translatable="false">proyekpeta-a0df2</string>
+</resources>

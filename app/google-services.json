@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "16635069873",
+    "project_id": "proyekpeta-a0df2",
+    "storage_bucket": "proyekpeta-a0df2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16635069873:android:eb20d4f3497a815cb36990",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16635069873-ha816kffo35erqubllo0qt9p1195pr8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMmaHbhWTJ3ZbkBo_yGJ7njwJzWJ1ubyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16635069873-ha816kffo35erqubllo0qt9p1195pr8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
