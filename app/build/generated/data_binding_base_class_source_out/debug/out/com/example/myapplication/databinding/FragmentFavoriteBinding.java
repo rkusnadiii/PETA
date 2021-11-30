@@ -4,10 +4,10 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.myapplication.R;
 import java.lang.NullPointerException;
@@ -16,20 +16,20 @@ import java.lang.String;
 
 public final class FragmentFavoriteBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final TextView favoriteFragment;
+  public final TextView textFavorite;
 
-  private FragmentFavoriteBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView favoriteFragment) {
+  private FragmentFavoriteBinding(@NonNull RelativeLayout rootView,
+      @NonNull TextView textFavorite) {
     this.rootView = rootView;
-    this.favoriteFragment = favoriteFragment;
+    this.textFavorite = textFavorite;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +54,13 @@ public final class FragmentFavoriteBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.favoriteFragment;
-      TextView favoriteFragment = rootView.findViewById(id);
-      if (favoriteFragment == null) {
+      id = R.id.textFavorite;
+      TextView textFavorite = rootView.findViewById(id);
+      if (textFavorite == null) {
         break missingId;
       }
 
-      return new FragmentFavoriteBinding((ConstraintLayout) rootView, favoriteFragment);
+      return new FragmentFavoriteBinding((RelativeLayout) rootView, textFavorite);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

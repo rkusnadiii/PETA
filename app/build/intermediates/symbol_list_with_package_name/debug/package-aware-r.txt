@@ -1005,6 +1005,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color backgroud
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1174,6 +1175,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color primary_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1182,9 +1184,6 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
-color purple_200
-color purple_500
-color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
@@ -1192,6 +1191,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color seconday_color
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1697,7 +1697,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable chatbot
+drawable chat_icon
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1723,10 +1723,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable favorite
+drawable favorite_icon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable home
+drawable home_icon
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1735,6 +1735,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable layout_bg
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1767,7 +1768,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable profile
+drawable profile_icon
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1958,8 +1959,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
-id favorite
-id favoriteFragment
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1984,7 +1983,6 @@ id header_title
 id hideable
 id home
 id homeAsUp
-id homeFragment
 id honorRequest
 id icon
 id icon_group
@@ -2033,6 +2031,10 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id menu_chatbot
+id menu_favorite
+id menu_home
+id menu_profile
 id message
 id middle
 id mini
@@ -2097,8 +2099,6 @@ id percent
 id pin
 id position
 id postLayout
-id profile
-id profileFragment
 id progress_circular
 id progress_horizontal
 id radio
@@ -2189,6 +2189,9 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textFavorite
+id textHome
+id textProfile
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart

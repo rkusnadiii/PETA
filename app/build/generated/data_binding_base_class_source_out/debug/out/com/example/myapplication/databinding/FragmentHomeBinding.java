@@ -4,10 +4,10 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.myapplication.R;
 import java.lang.NullPointerException;
@@ -16,19 +16,19 @@ import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final TextView homeFragment;
+  public final TextView textHome;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView homeFragment) {
+  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull TextView textHome) {
     this.rootView = rootView;
-    this.homeFragment = homeFragment;
+    this.textHome = textHome;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -53,13 +53,13 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.homeFragment;
-      TextView homeFragment = rootView.findViewById(id);
-      if (homeFragment == null) {
+      id = R.id.textHome;
+      TextView textHome = rootView.findViewById(id);
+      if (textHome == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, homeFragment);
+      return new FragmentHomeBinding((RelativeLayout) rootView, textHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

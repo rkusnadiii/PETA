@@ -119,7 +119,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ac
 	android:theme
 		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:11:9-51
 activity#com.example.myapplication.MainActivity
-ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:12:9-15:79
+ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:12:9-15:70
 	android:label
 		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:14:13-56
 	android:theme

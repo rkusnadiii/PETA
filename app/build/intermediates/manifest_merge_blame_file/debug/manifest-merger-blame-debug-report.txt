@@ -36,7 +36,7 @@
 23        android:theme="@style/Theme.MyApplication" >
 23-->D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:11:9-51
 24        <activity
-24-->D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:12:9-15:79
+24-->D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:12:9-15:70
 25            android:name="com.example.myapplication.MainActivity"
 25-->D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:13:13-41
 26            android:label="@string/title_activity_menu"

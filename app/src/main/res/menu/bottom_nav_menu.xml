@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/home"
+        android:id="@+id/menu_home"
         android:title="Home"
-        android:icon="@drawable/home"/>
-<!--    <item-->
-<!--        android:id="@+id/chatbot"-->
-<!--        android:title="Chatbot"-->
-<!--        android:icon="@drawable/chatbot"/>-->
+        android:icon="@drawable/home_icon"/>
     <item
-        android:id="@+id/favorite"
+        android:id="@+id/menu_chatbot"
+        android:title="Chatbot"
+        android:icon="@drawable/chat_icon"/>
+    <item
+        android:id="@+id/menu_favorite"
         android:title="Favorite"
-        android:icon="@drawable/favorite"/>
+        android:icon="@drawable/favorite_icon"/>
     <item
-        android:id="@+id/profile"
+        android:id="@+id/menu_profile"
         android:title="Profile"
-        android:icon="@drawable/profile"/>
+        android:icon="@drawable/profile_icon"/>
 </menu>
