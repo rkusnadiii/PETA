@@ -16,19 +16,33 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(MenuItem item) {
             Fragment f = null;
-            switch (item.getItemId()){
-                case R.id.menu_home:
-                    f = new HomeFragment();
-                    break;
-                case R.id.menu_favorite:
-                    f = new FavoriteFragment();
-                    break;
-                case R.id.menu_profile:
-                    f = new ProfileFragment();
-                    break;
+            int id = item.getItemId();
+            if (id == R.id.menu_home){
+                f = new HomeFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.flFragment,f).commit();
+                return true;
+            }else  if (id == R.id.menu_favorite){
+                f = new FavoriteFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.flFragment,f).commit();
+                return true;
+            }else if (id == R.id.menu_profile){
+                f = new ProfileFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.flFragment,f).commit();
+                return true;
             }
-            getSupportFragmentManager().beginTransaction().replace(R.id.flFragment,f).commit();
-            return false;
+//            switch (item.getItemId()){
+//                case R.id.menu_home:
+//                    f = new HomeFragment();
+//                    return true;
+//                    break;
+//                case R.id.menu_favorite:
+//                    f = new FavoriteFragment();
+//                    break;
+//                case R.id.menu_profile:
+//                    f = new ProfileFragment();
+//                    break;
+//            }
+            return true;
         }
     };
 

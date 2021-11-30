@@ -1084,6 +1084,7 @@ int color error_color_material_dark 0x7f050069
 int color error_color_material_light 0x7f05006a
 int color foreground_material_dark 0x7f05006b
 int color foreground_material_light 0x7f05006c
+int color grey 0x7f0500e5
 int color highlighted_text_material_dark 0x7f05006d
 int color highlighted_text_material_light 0x7f05006e
 int color material_blue_grey_800 0x7f05006f
@@ -1768,6 +1769,7 @@ int drawable notification_template_icon_low_bg 0x7f0700a4
 int drawable notification_tile_bg 0x7f0700a5
 int drawable notify_panel_notification_icon_bg 0x7f0700a6
 int drawable profile_icon 0x7f0700ae
+int drawable tab_color 0x7f0700af
 int drawable test_custom_background 0x7f0700a8
 int drawable tooltip_frame_dark 0x7f0700a9
 int drawable tooltip_frame_light 0x7f0700aa

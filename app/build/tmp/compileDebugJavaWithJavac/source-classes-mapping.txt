@@ -1,32 +1,32 @@
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/RegisterActivity.java
+ com.example.myapplication.RegisterActivity
+ com.example.myapplication.RegisterActivity$1
+ com.example.myapplication.RegisterActivity$1$1
+com/example/myapplication/databinding/ActivityMainBinding.java
+ com.example.myapplication.databinding.ActivityMainBinding
+com/example/myapplication/ProfileFragment.java
+ com.example.myapplication.ProfileFragment
+com/example/myapplication/databinding/FragmentProfileBinding.java
+ com.example.myapplication.databinding.FragmentProfileBinding
+com/example/myapplication/FavoriteFragment.java
+ com.example.myapplication.FavoriteFragment
+com/example/myapplication/databinding/ActivityRegisterBinding.java
+ com.example.myapplication.databinding.ActivityRegisterBinding
+com/example/myapplication/databinding/ActivityLoginBinding.java
+ com.example.myapplication.databinding.ActivityLoginBinding
+com/example/myapplication/HomeFragment.java
+ com.example.myapplication.HomeFragment
+com/example/myapplication/databinding/FragmentFavoriteBinding.java
+ com.example.myapplication.databinding.FragmentFavoriteBinding
+com/example/myapplication/databinding/FragmentHomeBinding.java
+ com.example.myapplication.databinding.FragmentHomeBinding
 com/example/myapplication/MainActivity.java
  com.example.myapplication.MainActivity
  com.example.myapplication.MainActivity$1
-com/example/myapplication/databinding/FragmentProfileBinding.java
- com.example.myapplication.databinding.FragmentProfileBinding
 com/example/myapplication/LoginActivity.java
  com.example.myapplication.LoginActivity
  com.example.myapplication.LoginActivity$1
  com.example.myapplication.LoginActivity$2
  com.example.myapplication.LoginActivity$2$1
-com/example/myapplication/HomeFragment.java
- com.example.myapplication.HomeFragment
-com/example/myapplication/databinding/FragmentFavoriteBinding.java
- com.example.myapplication.databinding.FragmentFavoriteBinding
-com/example/myapplication/databinding/ActivityRegisterBinding.java
- com.example.myapplication.databinding.ActivityRegisterBinding
-com/example/myapplication/RegisterActivity.java
- com.example.myapplication.RegisterActivity
- com.example.myapplication.RegisterActivity$1
- com.example.myapplication.RegisterActivity$1$1
-com/example/myapplication/BuildConfig.java
- com.example.myapplication.BuildConfig
-com/example/myapplication/databinding/ActivityMainBinding.java
- com.example.myapplication.databinding.ActivityMainBinding
-com/example/myapplication/FavoriteFragment.java
- com.example.myapplication.FavoriteFragment
-com/example/myapplication/databinding/ActivityLoginBinding.java
- com.example.myapplication.databinding.ActivityLoginBinding
-com/example/myapplication/databinding/FragmentHomeBinding.java
- com.example.myapplication.databinding.FragmentHomeBinding
-com/example/myapplication/ProfileFragment.java
- com.example.myapplication.ProfileFragment

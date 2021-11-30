@@ -22,6 +22,7 @@
         android:background="@drawable/layout_bg"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_nav_menu"
-        android:backgroundTint="@color/primary_color"/>
+        app:itemIconTint="@drawable/tab_color"
+        app:itemTextColor="@drawable/tab_color"/>
 
 </RelativeLayout>
