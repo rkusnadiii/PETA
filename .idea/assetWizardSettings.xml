@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/person/baseline_person_24.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/thumb_up/baseline_thumb_up_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,9 +33,10 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="acacac" />
-                            <entry key="outputName" value="profile_icon" />
-                            <entry key="sourceFile" value="D:\DATA\File KULIAH\Semester 7\proyek kus\PETA" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="color" value="c650ef" />
+                            <entry key="outputName" value="profile_pic" />
+                            <entry key="sourceFile" value="D:\DOWNLOAD\Rectangle 382.svg" />
                           </map>
                         </option>
                       </PersistentState>

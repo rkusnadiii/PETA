@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\775eb733fdfb5c5fadcc4eb1bf3474e0\viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\6b145b5455f3d09867d052f4ff93a7f4\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\6c1866a58500adf47910de35a2195b28\material-1.3.0\AndroidManifest.xml:17:1-24:12
@@ -63,25 +63,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Acer\.gradle\cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\95845392fc02f66a0c202dabf7818a57\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\2951fc92df0b0491504555b9bee91436\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\5fa73615562d9d7e3f1e8b0405f83600\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml
 		INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml
-		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml
-		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:5:5-34:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\6c1866a58500adf47910de35a2195b28\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\6c1866a58500adf47910de35a2195b28\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\da1ac001e035f87a29cc2da2e6f08efd\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -154,6 +154,12 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
 		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:27:27-74
+meta-data#preloaded_fonts
+ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:31:9-33:57
+	android:resource
+		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:33:13-54
+	android:name
+		ADDED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml:32:13-43
 uses-sdk
 INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\DATA\File KULIAH\Semester 7\proyek kus\PETA\app\src\main\AndroidManifest.xml

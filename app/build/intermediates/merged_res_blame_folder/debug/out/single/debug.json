@@ -4,6 +4,10 @@
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\navigation\\nav_graph2.xml"
     },
     {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_like_icon.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\drawable\\like_icon.xml"
+    },
+    {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\font_sancreek.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\font\\sancreek.xml"
     },
     {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_icon.xml.flat",
@@ -40,8 +48,16 @@
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\font_architects_daughter.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\font\\architects_daughter.xml"
+    },
+    {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg.xml.flat",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_bg.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\drawable\\card_bg.xml"
     },
     {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -50,6 +66,10 @@
     {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_edit_text.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\drawable\\card_edit_text.xml"
     },
     {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -84,6 +104,10 @@
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\drawable\\tab_color.xml"
     },
     {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\font_arbutus.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\font\\arbutus.xml"
+    },
+    {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
@@ -100,6 +124,10 @@
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\font_annie_use_your_telescope.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\font\\annie_use_your_telescope.xml"
+    },
+    {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
@@ -110,6 +138,14 @@
     {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chat_icon.xml.flat",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\drawable\\chat_icon.xml"
+    },
+    {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vector_like.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\drawable\\vector_like.xml"
+    },
+    {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\font_alfa_slab_one.xml.flat",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\font\\alfa_slab_one.xml"
     },
     {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",

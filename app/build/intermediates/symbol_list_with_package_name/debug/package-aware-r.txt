@@ -61,6 +61,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1039,6 +1043,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color dark_grey
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1698,6 +1703,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable card_bg
+drawable card_edit_text
 drawable chat_icon
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1737,6 +1744,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable layout_bg
+drawable like_icon
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1774,6 +1782,12 @@ drawable tab_color
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vector_like
+font alfa_slab_one
+font annie_use_your_telescope
+font arbutus
+font architects_daughter
+font sancreek
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2192,8 +2206,6 @@ id text
 id text2
 id textEnd
 id textFavorite
-id textHome
-id textProfile
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart

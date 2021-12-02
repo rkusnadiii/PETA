@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -8,24 +12,12 @@
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\fragment_favorite.xml"
     },
     {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_menu.xml"
-    },
-    {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
         "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_coba.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_coba.xml"
     },
     {
         "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
