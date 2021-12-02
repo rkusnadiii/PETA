@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -19,7 +20,8 @@ import org.jetbrains.annotations.NotNull;
 
 public class LoginActivity extends AppCompatActivity {
     EditText emailLogin, passwordLogin;
-    Button Login, Register;
+    Button Login;
+    TextView Register;
     FirebaseAuth firebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState){

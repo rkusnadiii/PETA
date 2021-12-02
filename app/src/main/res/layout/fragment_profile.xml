@@ -111,14 +111,27 @@
     </LinearLayout>
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp">
 
         <Button
             android:layout_width="match_parent"
             android:textColor="@color/white"
             android:layout_height="50dp"
             android:text="Save Now"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="50dp"
+            android:text="Logout"
             android:textAllCaps="false"
             android:textStyle="bold"
             android:layout_gravity="bottom"
