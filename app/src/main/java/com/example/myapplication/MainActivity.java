@@ -15,11 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private BottomNavigationView.OnNavigationItemSelectedListener navigation = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(MenuItem item) {
-<<<<<<< HEAD
-            Fragment f;
-=======
             Fragment f ;
->>>>>>> doi-brance
             int id = item.getItemId();
             if (id == R.id.menu_home){
                 f = new HomeFragment();
