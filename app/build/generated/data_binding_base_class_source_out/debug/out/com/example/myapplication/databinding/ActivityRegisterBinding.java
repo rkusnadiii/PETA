@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.myapplication.R;
 import java.lang.NullPointerException;
@@ -18,33 +18,51 @@ import java.lang.String;
 
 public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final LinearLayout rootView;
+
+  @NonNull
+  public final TextView btnLoginRegister;
 
   @NonNull
   public final Button btnRegisterRegister;
 
   @NonNull
-  public final ConstraintLayout constraintLayout;
+  public final Button btnShowPassR;
+
+  @NonNull
+  public final Button btnShowPassRConfirm;
 
   @NonNull
   public final EditText edtEmailRegister;
 
   @NonNull
+  public final EditText edtNameRegister;
+
+  @NonNull
   public final EditText edtPasswordRegister;
 
-  private ActivityRegisterBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull Button btnRegisterRegister, @NonNull ConstraintLayout constraintLayout,
-      @NonNull EditText edtEmailRegister, @NonNull EditText edtPasswordRegister) {
+  @NonNull
+  public final EditText edtPasswordRegisterConfirm;
+
+  private ActivityRegisterBinding(@NonNull LinearLayout rootView,
+      @NonNull TextView btnLoginRegister, @NonNull Button btnRegisterRegister,
+      @NonNull Button btnShowPassR, @NonNull Button btnShowPassRConfirm,
+      @NonNull EditText edtEmailRegister, @NonNull EditText edtNameRegister,
+      @NonNull EditText edtPasswordRegister, @NonNull EditText edtPasswordRegisterConfirm) {
     this.rootView = rootView;
+    this.btnLoginRegister = btnLoginRegister;
     this.btnRegisterRegister = btnRegisterRegister;
-    this.constraintLayout = constraintLayout;
+    this.btnShowPassR = btnShowPassR;
+    this.btnShowPassRConfirm = btnShowPassRConfirm;
     this.edtEmailRegister = edtEmailRegister;
+    this.edtNameRegister = edtNameRegister;
     this.edtPasswordRegister = edtPasswordRegister;
+    this.edtPasswordRegisterConfirm = edtPasswordRegisterConfirm;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -69,15 +87,27 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnLoginRegister;
+      TextView btnLoginRegister = rootView.findViewById(id);
+      if (btnLoginRegister == null) {
+        break missingId;
+      }
+
       id = R.id.btnRegisterRegister;
       Button btnRegisterRegister = rootView.findViewById(id);
       if (btnRegisterRegister == null) {
         break missingId;
       }
 
-      id = R.id.constraintLayout;
-      ConstraintLayout constraintLayout = rootView.findViewById(id);
-      if (constraintLayout == null) {
+      id = R.id.btnShowPassR;
+      Button btnShowPassR = rootView.findViewById(id);
+      if (btnShowPassR == null) {
+        break missingId;
+      }
+
+      id = R.id.btnShowPassRConfirm;
+      Button btnShowPassRConfirm = rootView.findViewById(id);
+      if (btnShowPassRConfirm == null) {
         break missingId;
       }
 
@@ -87,14 +117,27 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.edtNameRegister;
+      EditText edtNameRegister = rootView.findViewById(id);
+      if (edtNameRegister == null) {
+        break missingId;
+      }
+
       id = R.id.edtPasswordRegister;
       EditText edtPasswordRegister = rootView.findViewById(id);
       if (edtPasswordRegister == null) {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((CoordinatorLayout) rootView, btnRegisterRegister,
-          constraintLayout, edtEmailRegister, edtPasswordRegister);
+      id = R.id.edtPasswordRegisterConfirm;
+      EditText edtPasswordRegisterConfirm = rootView.findViewById(id);
+      if (edtPasswordRegisterConfirm == null) {
+        break missingId;
+      }
+
+      return new ActivityRegisterBinding((LinearLayout) rootView, btnLoginRegister,
+          btnRegisterRegister, btnShowPassR, btnShowPassRConfirm, edtEmailRegister, edtNameRegister,
+          edtPasswordRegister, edtPasswordRegisterConfirm);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -2,6 +2,8 @@ package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,7 +22,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class LoginActivity extends AppCompatActivity {
     EditText emailLogin, passwordLogin;
-    Button Login;
+    Button Login ,ShowPass;
     TextView Register;
     FirebaseAuth firebaseAuth;
     @Override
@@ -57,6 +59,20 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     }
                 });
+            }
+        });
+
+        ShowPass = findViewById(R.id.btnShowPass);
+        ShowPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (ShowPass.getText().toString() == "Show"){
+                    passwordLogin.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                    ShowPass.setText("Hide");
+                }else {
+                    passwordLogin.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                    ShowPass.setText("Show");
+                }
             }
         });
     }

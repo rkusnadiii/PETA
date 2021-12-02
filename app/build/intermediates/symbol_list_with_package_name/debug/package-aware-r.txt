@@ -1894,9 +1894,12 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnForgotPassword
 id btnLoginLogin
+id btnLoginRegister
 id btnRegisterLogin
 id btnRegisterRegister
 id btnShowPass
+id btnShowPassR
+id btnShowPassRConfirm
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1921,7 +1924,6 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id confirm_button
-id constraintLayout
 id container
 id content
 id contentPanel
@@ -1965,8 +1967,10 @@ id easeOut
 id edit_query
 id edtEmailLogin
 id edtEmailRegister
+id edtNameRegister
 id edtPasswordLogin
 id edtPasswordRegister
+id edtPasswordRegisterConfirm
 id elastic
 id end
 id endToStart
