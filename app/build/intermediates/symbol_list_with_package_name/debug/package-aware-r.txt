@@ -1892,11 +1892,9 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnForgotPassword
 id btnLoginLogin
 id btnRegisterLogin
 id btnRegisterRegister
-id btnShowPass
 id buttonPanel
 id cache_measures
 id cancel_action

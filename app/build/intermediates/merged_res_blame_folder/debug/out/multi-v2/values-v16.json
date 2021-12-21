@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "G:\\Download\\PETA-doi-brance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Acer\\.gradle\\caches\\transforms-2\\files-2.1\\8a43a0a3d67ad647528be3d44c1b1b81\\appcompat-1.3.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\ricky\\.gradle\\caches\\transforms-2\\files-2.1\\8a43a0a3d67ad647528be3d44c1b1b81\\appcompat-1.3.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Acer\\.gradle\\caches\\transforms-2\\files-2.1\\e81257837f1767da48ac036f752f439b\\core-1.5.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\ricky\\.gradle\\caches\\transforms-2\\files-2.1\\e81257837f1767da48ac036f752f439b\\core-1.5.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

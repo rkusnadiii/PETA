@@ -6,10 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.myapplication.R;
 import java.lang.NullPointerException;
@@ -18,19 +17,13 @@ import java.lang.String;
 
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
-
-  @NonNull
-  public final TextView btnForgotPassword;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button btnLoginLogin;
 
   @NonNull
-  public final TextView btnRegisterLogin;
-
-  @NonNull
-  public final Button btnShowPass;
+  public final Button btnRegisterLogin;
 
   @NonNull
   public final EditText edtEmailLogin;
@@ -38,22 +31,19 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final EditText edtPasswordLogin;
 
-  private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull TextView btnForgotPassword,
-      @NonNull Button btnLoginLogin, @NonNull TextView btnRegisterLogin,
-      @NonNull Button btnShowPass, @NonNull EditText edtEmailLogin,
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLoginLogin,
+      @NonNull Button btnRegisterLogin, @NonNull EditText edtEmailLogin,
       @NonNull EditText edtPasswordLogin) {
     this.rootView = rootView;
-    this.btnForgotPassword = btnForgotPassword;
     this.btnLoginLogin = btnLoginLogin;
     this.btnRegisterLogin = btnRegisterLogin;
-    this.btnShowPass = btnShowPass;
     this.edtEmailLogin = edtEmailLogin;
     this.edtPasswordLogin = edtPasswordLogin;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -78,12 +68,6 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnForgotPassword;
-      TextView btnForgotPassword = rootView.findViewById(id);
-      if (btnForgotPassword == null) {
-        break missingId;
-      }
-
       id = R.id.btnLoginLogin;
       Button btnLoginLogin = rootView.findViewById(id);
       if (btnLoginLogin == null) {
@@ -91,14 +75,8 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       id = R.id.btnRegisterLogin;
-      TextView btnRegisterLogin = rootView.findViewById(id);
+      Button btnRegisterLogin = rootView.findViewById(id);
       if (btnRegisterLogin == null) {
-        break missingId;
-      }
-
-      id = R.id.btnShowPass;
-      Button btnShowPass = rootView.findViewById(id);
-      if (btnShowPass == null) {
         break missingId;
       }
 
@@ -114,8 +92,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((LinearLayout) rootView, btnForgotPassword, btnLoginLogin,
-          btnRegisterLogin, btnShowPass, edtEmailLogin, edtPasswordLogin);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, btnLoginLogin, btnRegisterLogin,
+          edtEmailLogin, edtPasswordLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

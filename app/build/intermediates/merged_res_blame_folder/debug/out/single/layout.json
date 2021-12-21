@@ -1,26 +1,26 @@
 [
     {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "G:\\Download\\PETA-doi-brance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_favorite.xml",
+        "source": "G:\\Download\\PETA-doi-brance\\app\\src\\main\\res\\layout\\fragment_favorite.xml"
     },
     {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "G:\\Download\\PETA-doi-brance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "G:\\Download\\PETA-doi-brance\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_favorite.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\fragment_favorite.xml"
+        "merged": "G:\\Download\\PETA-doi-brance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "G:\\Download\\PETA-doi-brance\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "G:\\Download\\PETA-doi-brance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "G:\\Download\\PETA-doi-brance\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "G:\\Download\\PETA-doi-brance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "G:\\Download\\PETA-doi-brance\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "G:\\Download\\PETA-doi-brance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "G:\\Download\\PETA-doi-brance\\app\\src\\main\\res\\layout\\fragment_home.xml"
     }
 ]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\DATA\\File KULIAH\\Semester 7\\proyek kus\\PETA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
+            "outputFile": "G:\\Download\\PETA-doi-brance\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Acer\\.gradle\\caches\\transforms-2\\files-2.1\\6c1866a58500adf47910de35a2195b28\\material-1.3.0\\res\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
+                    "source": "C:\\Users\\ricky\\.gradle\\caches\\transforms-2\\files-2.1\\6c1866a58500adf47910de35a2195b28\\material-1.3.0\\res\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

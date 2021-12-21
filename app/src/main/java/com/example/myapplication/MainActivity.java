@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private BottomNavigationView.OnNavigationItemSelectedListener navigation = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(MenuItem item) {
-            Fragment f ;
+            Fragment f = null;
             int id = item.getItemId();
             if (id == R.id.menu_home){
                 f = new HomeFragment();
@@ -30,6 +30,18 @@ public class MainActivity extends AppCompatActivity {
                 getSupportFragmentManager().beginTransaction().replace(R.id.flFragment,f).commit();
                 return true;
             }
+//            switch (item.getItemId()){
+//                case R.id.menu_home:
+//                    f = new HomeFragment();
+//                    return true;
+//                    break;
+//                case R.id.menu_favorite:
+//                    f = new FavoriteFragment();
+//                    break;
+//                case R.id.menu_profile:
+//                    f = new ProfileFragment();
+//                    break;
+//            }
             return true;
         }
     };
